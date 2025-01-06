@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta {
+    background-color: #28d9f4;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #bf2700;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #bf2700;
+    border: 1px solid #28d9f4;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+h4{
+    color: black;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product-images img {
+    width: 38%;
+    height: 750px;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.imagen-mejorada {
+    filter: brightness(1.0) contrast(1.1);
+    transition: filter 0.3s ease;
+}
+
+.imagen-mejorada:hover {
+    filter: brightness(1.1) contrast(1.2);
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.rojo {
+    color: red;
+}
+
